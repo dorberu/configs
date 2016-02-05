@@ -1,0 +1,13 @@
+[user]
+        name = User
+        email = Mail
+[color]
+        ui = true
+[alias]
+      	co = checkout
+        ci = commit
+        st = status
+        br = branch
+        loga = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+    [core]
+        excludesfile = ~/.gitignore
